@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "https://d3js.org/d3.v7.min.js"></script>
+    <script type="text/javascript" src="./RequestData.js"></script>
+    <title>Agrilog</title>
+</head>
+<body>
+    <h1>Agrilog loggar IOT mätningar runtom Sverige.</h1>
+    <h2>V1 hämta data (temp och humidity) från en dB på webbhotellet.</h2>
+    <h2>och visar data i en tabell på webbsidan.</h2>
+    <h3>Nästa version ska visa grafen med d3.js.</h3>
+    <form action=""> 
+        Location name: <input type="text" id="txt1" onkeyup=" GetMeasurements(this.value)">
+    <!--Location name: <input type="text" id="txt1" onkeyup=" GetLocation(this.value)">-->
+    </form>   
+    <p>Suggestions: <span id="txtMeasures"></span></p> 
+    <script></script>
+</body>
+</html>
