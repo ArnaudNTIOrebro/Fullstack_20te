@@ -3,7 +3,7 @@
 $q = ($_GET['q']);
 $sign = "%";
 echo $sql;
-$servername = "localhost";
+$servername = "localhost:din port";
 $username = "root"; 
 $password = "";
 $dbname = "namnet på din dB";
