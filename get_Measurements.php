@@ -1,7 +1,7 @@
 <?php
 //$q = intval($_GET['q']);
 $q = ($_GET['q']);
-$sign = "%";
+
 echo $sql;
 $servername = "localhost:din port";
 $username = "root"; 
